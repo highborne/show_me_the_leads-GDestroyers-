@@ -1,92 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <!-- meta tags obrigatorias -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title> Show me the Leads</title>
-  <!-- CSS do Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
-</head>
-<body>
-  <section class="header">
-    <nav class="navbar navbar-default"></nav>
-  </section>
-  <section class="about">
-    <div class="row conteudo-about">
-      <div class="col m6 imagem">
-        <img src="https://media.eadbox.com/system/uploads/medium/file/5e677a269b2e98003259f064/recruiting.png" class="img-fluid" alt="Imagem responsiva">
+  <head>
+    <!-- meta tags obrigatorias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Show me the Leads</title>
+    <!-- CSS do Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+
+    <script src="https://kit.fontawesome.com/eae6a221e9.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <div class="container align-self-start head">
+        <div class="imagem-logo"></div>
       </div>
-      <div class="col m6 texto">
-        <div class="imagem-sobre">
+      <div class="container header-conteudos">
+        <div class="col-md-7 col-sm-12 header-esquerdo">
+          <div class="col-12 free">
+            <div class="falsos-botoes"><p class="text-center align-middle">100% Grátis</p></div>
+          </div>
+          <div class="col-12 texto-header-esquerdo">
+            <h1>Currículo Criativo</h1>
+            <p class="text-justify">Baixe agora mesmo e destaque-se no mercado de trabalho</p>
+            <p>Lorem ipsum dolor sit amet,Stet clita kasd gubergren, no sea takimata sanctus est is thelorem ipsum dolor sit amet. sed diam nonumy eirmod tempor invidunt ut labore et dolore is the magna aliquyam.</p>
+          </div>
+          <div class="col-12 botao-header-esquerdo">
+            <button type="button" class="btn btn-primary btn-lg">Quero meu CV agora!</button>
+          </div>
         </div>
-        <div class="titulo">
-          <h1>Lorem Ipsum</h1>
-        </div>
-        <div class="texto">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur molestie dolor, eget dapibus nulla. Cras at nisl venenatis, tristique sapien eu, semper odio. Suspendisse quis purus elementum, maximus lacus nec, sollicitudin dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur molestie dolor, eget dapibus nulla. Cras at nisl venenatis, tristique sapien eu, semper odio. Suspendisse quis purus elementum, maximus lacus nec, sollicitudin dolor.
-          </p>
-        </div>
-      </div>\
-    </div>
-  </section>
-  <section class="container form">
-    <form class="text-center border border-light p-5" method="POST" action="URL do seu time">
-      <div class="titulo ">
-        <p class="h4 mb-4 titulo-form">QUERO RECEBER AGORA!</P>
-      </div>
-      <div class="col-md-6 offset-md-3 col-sm-12 input">
-        <!-- NOME COMPLETO -->
-        <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" required />
-      </div>
-      <div class="col-md-6 offset-md-3 col-sm-12 input">
-        <!-- EMAIL -->
-        <input name="email" type="email" title="Digite um email válido" required />
-      </div>
-      <!-- PAGINA DE OBRIGADO -->
-      <input name="redirectTo" type="hidden" value="https://gama.academy" />
-      <!-- DEBUGGER -->
-      <input name="debugMode" type="hidden" value="true" />
-      <div class="col-md-6 offset-md-3 col-sm-12 botao">
-        <!-- BOTÃO ENVIAR -->
-        <button class="btn btn-info btn-block" type="submit">DOWNLOAD</button>
-      </div>
-    </form>
-  </section>
-  <section class="diferenciais">
-    <div class="container">
-      <div class="col-md-4 col-sm-12 campos">
-        <div class="icon text-left ">
-        </div>
-        <div class="titulo text-left">
-          <p>Fácil Usabilidade</p>
-        </div>
-        <div class="texto text-justify">
-          <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+        <div class="col-md-5 col-sm-12 header-direito">
+          <!-- <div class="square"></div> -->
         </div>
       </div>
-      <div class="col-md-4 col-sm-12 campos">
-        <div class="icon text-left ">
+    </section>
+    <section class="about">
+      <div class="container conteudo-about">
+        <div class="col m8 about-direita">
+          <img src="https://media.eadbox.com/system/uploads/medium/file/5e677a269b2e98003259f064/recruiting.png" class="img-fluid" alt="Imagem responsiva">
         </div>
-        <div class="titulo text-left">
-          <p>Fácil Usabilidade</p>
-        </div>
-        <div class="texto text-justify">
-          <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+        <div class="col m4 about-esquerda">
+          <div class="col-12 free">
+            <div class="falsos-botoes"><p class="text-center align-middle">Sobre o Material</p></div>
+          </div>
+          <div class="titulo">
+            <p>Lorem Ipsum</p>
+          </div>
+          <div class="texto">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur molestie dolor, eget dapibus nulla. Cras at nisl venenatis, tristique sapien eu, semper odio. Suspendisse quis purus elementum, maximus lacus nec, sollicitudin dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur molestie dolor, eget dapibus nulla. Cras at nisl venenatis, tristique sapien eu, semper odio. Suspendisse quis purus elementum, maximus lacus nec, sollicitudin dolor.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12 campos">
-        <div class="icon text-left ">
+    </section>
+    <section class="form">
+      <form class="text-center border border-light p-5" method="POST" action="URL do seu time">
+        <div class="titulo ">
+          <p>QUERO RECEBER AGORA!</p>
         </div>
-        <div class="titulo text-left">
-          <p>Fácil Usabilidade</p>
+        <div class="col-md-4 offset-md-4 col-sm-12 input">
+          <!-- NOME COMPLETO -->
+          <input class="form-control" name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Digite seu nome completo" required />
         </div>
-        <div class="texto text-justify">
-          <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+        <div class="col-md-4 offset-md-4 col-sm-12 input">
+          <!-- EMAIL -->
+          <input class="form-control" name="email" type="email" placeholder="E-mail" required />
+        </div>
+        <!-- PAGINA DE OBRIGADO -->
+        <input name="redirectTo" type="hidden" value="https://gama.academy" />
+        <!-- DEBUGGER -->
+        <input name="debugMode" type="hidden" value="true" />
+        <div class="col-md-4 offset-md-4 col-sm-12 text-center botao">
+          <!-- BOTÃO ENVIAR -->
+          <button class="btn btn-info btn-block" type="submit">DOWNLOAD</button>
+        </div>
+      </form>
+    </section>
+    <section class="diferenciais">
+      <div class="container">
+        <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
+          <div class="icon text-left ">
+            <div class="icones border border-dark rounded-circle">
+              <i class="fab fa-audible fa-3x"></i>
+            </div>
+          </div>
+          <div class="titulo text-left">
+            <p>Fácil Usabilidade</p>
+          </div>
+          <div class="texto text-justify">
+            <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
+          <div class="icon text-left ">
+            <div class="icones border border-dark rounded-circle">
+              <i class="fab fa-audible fa-3x"></i>
+            </div>
+          </div>
+          <div class="titulo text-left">
+            <p>Destaque-se</p>
+          </div>
+          <div class="texto text-justify">
+            <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
+          <div class="icon text-left ">
+            <div class="icones border border-dark rounded-circle">
+              <i class="fab fa-audible fa-3x"></i>
+            </div>
+          </div>
+          <div class="titulo text-left">
+            <p>Seja Lembrado</p>
+          </div>
+          <div class="texto text-justify">
+            <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-</body>
+    </section>
+  </body>
+
 </html>
