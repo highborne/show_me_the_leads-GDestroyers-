@@ -9,26 +9,84 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
 </head>
 <body>
-  <nav class="navbar navbar-default"></nav>
-  <div class="container text-center">
-    <h1>Exemplo de formulário para o Show me the Leads</h1>
-    <form method="POST" action="URL do seu time">
-      <input
-        name="name"
-        type="text"
-        pattern="^\D{2,}\s[\D\s]{2,}$"
-        title="Digite seu nome completo"
-        required
-      />
-      <input
-        name="email"
-        type="email"
-        title="Digite um email válido"
-        required
-      />
+  <section class="header">
+    <nav class="navbar navbar-default"></nav>
+  </section>
+  <section class="about">
+    <div class="row conteudo-about">
+      <div class="col m6 imagem">
+        <img src="https://media.eadbox.com/system/uploads/medium/file/5e677a269b2e98003259f064/recruiting.png" class="img-fluid" alt="Imagem responsiva">
+      </div>
+      <div class="col m6 texto">
+        <div class="imagem-sobre">
+        </div>
+        <div class="titulo">
+          <h1>Lorem Ipsum</h1>
+        </div>
+        <div class="texto">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur molestie dolor, eget dapibus nulla. Cras at nisl venenatis, tristique sapien eu, semper odio. Suspendisse quis purus elementum, maximus lacus nec, sollicitudin dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur molestie dolor, eget dapibus nulla. Cras at nisl venenatis, tristique sapien eu, semper odio. Suspendisse quis purus elementum, maximus lacus nec, sollicitudin dolor.
+          </p>
+        </div>
+      </div>\
+    </div>
+  </section>
+  <section class="container form">
+    <form class="text-center border border-light p-5" method="POST" action="URL do seu time">
+      <div class="titulo ">
+        <p class="h4 mb-4 titulo-form">QUERO RECEBER AGORA!</P>
+      </div>
+      <div class="col-md-6 offset-md-3 col-sm-12 input">
+        <!-- NOME COMPLETO -->
+        <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" required />
+      </div>
+      <div class="col-md-6 offset-md-3 col-sm-12 input">
+        <!-- EMAIL -->
+        <input name="email" type="email" title="Digite um email válido" required />
+      </div>
+      <!-- PAGINA DE OBRIGADO -->
       <input name="redirectTo" type="hidden" value="https://gama.academy" />
+      <!-- DEBUGGER -->
       <input name="debugMode" type="hidden" value="true" />
-      <input type="submit" />
+      <div class="col-md-6 offset-md-3 col-sm-12 botao">
+        <!-- BOTÃO ENVIAR -->
+        <button class="btn btn-info btn-block" type="submit">DOWNLOAD</button>
+      </div>
     </form>
+  </section>
+  <section class="diferenciais">
+    <div class="container">
+      <div class="col-md-4 col-sm-12 campos">
+        <div class="icon text-left ">
+        </div>
+        <div class="titulo text-left">
+          <p>Fácil Usabilidade</p>
+        </div>
+        <div class="texto text-justify">
+          <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 campos">
+        <div class="icon text-left ">
+        </div>
+        <div class="titulo text-left">
+          <p>Fácil Usabilidade</p>
+        </div>
+        <div class="texto text-justify">
+          <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 campos">
+        <div class="icon text-left ">
+        </div>
+        <div class="titulo text-left">
+          <p>Fácil Usabilidade</p>
+        </div>
+        <div class="texto text-justify">
+          <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
