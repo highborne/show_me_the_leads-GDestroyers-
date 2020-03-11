@@ -34,7 +34,7 @@ p {
 }
 
 .left {
-    padding: 0 150px 80px 20px;
+    padding: 0 150px 10px 20px;
     flex-grow: 1;
     width: 40%;
 }
@@ -45,7 +45,7 @@ p {
     flex-grow: 2;
     padding-right: 20px;
     background: url(src/img.png) no-repeat;
-    background-size: auto;
+    background-size: 80%;
     min-height: 72vh;
 }
 
