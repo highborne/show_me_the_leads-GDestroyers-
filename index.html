@@ -8,123 +8,144 @@
     <!-- CSS do Bootstrap -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
-
+    <!-- Importação fontawesome -->
     <script src="https://kit.fontawesome.com/eae6a221e9.js" crossorigin="anonymous"></script>
+
+    <!-- Modulos Node -->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NX9KSKG');</script>
+    <!-- End Google Tag Manager -->
   </head>
 
   <body>
-    <section class="header">
-      <div class="container align-self-start head">
-        <div class="imagem-logo"></div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX9KSKG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+      <div class="row head">
+        <img src="imgs/logo.jpeg" class="logo" alt="Logo">
       </div>
-      <div class="container header-conteudos">
-        <div class="col-md-7 col-sm-12 header-esquerdo">
-          <div class="col-12 free">
-            <div class="falsos-botoes"><p class="text-center align-middle">100% Grátis</p></div>
-          </div>
-          <div class="col-12 texto-header-esquerdo">
-            <h1>Currículo Criativo</h1>
-            <p class="text-justify">Baixe agora mesmo e destaque-se no mercado de trabalho</p>
-            <p>Lorem ipsum dolor sit amet,Stet clita kasd gubergren, no sea takimata sanctus est is thelorem ipsum dolor sit amet. sed diam nonumy eirmod tempor invidunt ut labore et dolore is the magna aliquyam.</p>
-          </div>
-          <div class="col-12 botao-header-esquerdo">
-            <button type="button" class="btn btn-primary btn-lg">Quero meu CV agora!</button>
-          </div>
-        </div>
-        <div class="col-md-5 col-sm-12 header-direito">
-          <!-- <div class="square"></div> -->
-        </div>
-      </div>
-    </section>
-    <section class="about">
-      <div class="container conteudo-about">
-        <div class="col m8 about-direita">
-          <img src="https://media.eadbox.com/system/uploads/medium/file/5e677a269b2e98003259f064/recruiting.png" class="img-fluid" alt="Imagem responsiva">
-        </div>
-        <div class="col m4 about-esquerda">
-          <div class="col-12 free">
-            <div class="falsos-botoes"><p class="text-center align-middle">Sobre o Material</p></div>
-          </div>
-          <div class="titulo">
-            <p>Lorem Ipsum</p>
-          </div>
-          <div class="texto">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur molestie dolor, eget dapibus nulla. Cras at nisl venenatis, tristique sapien eu, semper odio. Suspendisse quis purus elementum, maximus lacus nec, sollicitudin dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur molestie dolor, eget dapibus nulla. Cras at nisl venenatis, tristique sapien eu, semper odio. Suspendisse quis purus elementum, maximus lacus nec, sollicitudin dolor.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="form">
-      <form class="text-center border border-light p-5" method="POST" action="URL do seu time">
-        <div class="titulo ">
-          <p>QUERO RECEBER AGORA!</p>
-        </div>
-        <div class="col-md-4 offset-md-4 col-sm-12 input">
-          <!-- NOME COMPLETO -->
-          <input class="form-control" name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Digite seu nome completo" required />
-        </div>
-        <div class="col-md-4 offset-md-4 col-sm-12 input">
-          <!-- EMAIL -->
-          <input class="form-control" name="email" type="email" placeholder="E-mail" required />
-        </div>
-        <!-- PAGINA DE OBRIGADO -->
-        <input name="redirectTo" type="hidden" value="https://gama.academy" />
-        <!-- DEBUGGER -->
-        <input name="debugMode" type="hidden" value="true" />
-        <div class="col-md-4 offset-md-4 col-sm-12 text-center botao">
-          <!-- BOTÃO ENVIAR -->
-          <button class="btn btn-info btn-block" type="submit">DOWNLOAD</button>
-        </div>
-      </form>
-    </section>
-    <section class="diferenciais">
-      <div class="container">
-        <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
-          <div class="icon text-left ">
-            <div class="icones border border-dark rounded-circle">
-              <i class="fab fa-audible fa-3x"></i>
+      <div class="row header">
+        <div class="col-xs-12 col-md-12 d-md-flex header-conteudos">
+          <div class="col-md-7 col-12 d-flex align-content-end flex-wrap header-esquerdo">
+            <div class="col-12 free">
+              <div class="falsos-botoes"><p class="text-center align-middle">100% Grátis</p></div>
+            </div>
+            <div class="col-12 texto-header-esquerdo">
+              <h1>Currículo Criativo</h1>
+              <p class="text-justify">Baixe agora mesmo e destaque-se no mercado de trabalho</p>
+              <p class="text-justify">Não perca tempo construindo currículos convencionais que não atraem a atenção dos
+                recrutadores. Utilize agora o nosso currículo criativo e destaque-se nos processos seletivos.</p>
+            </div>
+            <div class="col-12 botao-header-esquerdo">
+              <button type="button" class="btn btn-primary btn-lg">Quero meu CV agora!</button>
             </div>
           </div>
-          <div class="titulo text-left">
-            <p>Fácil Usabilidade</p>
-          </div>
-          <div class="texto text-justify">
-            <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
-          <div class="icon text-left ">
-            <div class="icones border border-dark rounded-circle">
-              <i class="fab fa-audible fa-3x"></i>
-            </div>
-          </div>
-          <div class="titulo text-left">
-            <p>Destaque-se</p>
-          </div>
-          <div class="texto text-justify">
-            <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
-          <div class="icon text-left ">
-            <div class="icones border border-dark rounded-circle">
-              <i class="fab fa-audible fa-3x"></i>
-            </div>
-          </div>
-          <div class="titulo text-left">
-            <p>Seja Lembrado</p>
-          </div>
-          <div class="texto text-justify">
-            <p>Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.<p>
+          <div class="col-md-5 col-12 header-direito">
+            <img src="imgs/Curriculum Criativo.jpg" class="imagem-curriculo" alt="Imagem curriculo">
           </div>
         </div>
       </div>
-    </section>
+      <div class="row about">
+        <div class="col-xs-12 col-md-12 d-md-flex conteudo-about">
+          <div class="col m8 about-esquerda">
+            <img src="https://media.eadbox.com/system/uploads/medium/file/5e677a269b2e98003259f064/recruiting.png" class="img-fluid" alt="Imagem responsiva">
+          </div>
+          <div class="col m4 d-flex align-content-end flex-wrap about-direita">
+            <div class="col-12 free">
+              <div class="falsos-botoes"><p class="text-center align-middle">Sobre o Material</p></div>
+            </div>
+            <div class="titulo">
+              <p>Cresça no Mercado de Trabalho</p>
+            </div>
+            <div class="texto">
+              <p>
+                Alguns estudos apontam que os recrutadores levam em média de 6 a 10 segundos para
+                descartar um currículo para uma entrevista. Destacar-se desde o início do processo de
+                contratação é essencial para garantir uma vaga no mercado de trabalho. Por isso,
+                desenvolvemos um modelo de currículo criativo que irá fazer você ser notado muito mais que
+                rápido e ter atenção muito superior a 10 segundos. <br>Conheça nosso currículo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row form">
+        <form class="text-center col-xs-12 col-md-12" method="POST" action="https://smtl.gama.academy/leads/00ed2400-5ffc-11ea-bda1-a79ae41d1f3c">
+          <div class="titulo ">
+            <p>QUERO RECEBER AGORA!</p>
+          </div>
+          <div class="col-md-4 offset-md-4 col-sm-12 input">
+            <!-- NOME COMPLETO -->
+            <input class="form-control" name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Digite seu nome completo" required />
+          </div>
+          <div class="col-md-4 offset-md-4 col-sm-12 input">
+            <!-- EMAIL -->
+            <input class="form-control" name="email" type="email" placeholder="E-mail" required />
+          </div>
+          <!-- PAGINA DE OBRIGADO -->
+          <input name="redirectTo" type="hidden" value="https://gama.academy" />
+          <!-- DEBUGGER -->
+          <input name="debugMode" type="hidden" value="true" />
+          <div class="col-md-4 offset-md-4 col-sm-12 text-center botao">
+            <!-- BOTÃO ENVIAR -->
+            <button class="btn btn-info btn-block" type="submit">DOWNLOAD</button>
+          </div>
+        </form>
+      </div>
+      <div class="row diferenciais">
+        <div class="row">
+          <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
+            <div class="icon text-left ">
+              <div class="icones border border-dark rounded-circle">
+                <i class="fab fa-audible fa-3x"></i>
+              </div>
+            </div>
+            <div class="titulo text-left">
+              <p>Fácil Usabilidade</p>
+            </div>
+            <div class="texto text-justify">
+              <p>Rápido e fácil, basta fazer o download e montar seu currículo criativo.<p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
+            <div class="icon text-left ">
+              <div class="icones border border-dark rounded-circle">
+                <i class="fab fa-audible fa-3x"></i>
+              </div>
+            </div>
+            <div class="titulo text-left">
+              <p>Destaque-se</p>
+            </div>
+            <div class="texto text-justify">
+              <p>O currículo é o primeiro contato com o recrutador, encante desde o currículo.<p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 shadow p-3 mb-5 bg-white rounded campos">
+            <div class="icon text-left ">
+              <div class="icones border border-dark rounded-circle">
+                <i class="fab fa-audible fa-3x"></i>
+              </div>
+            </div>
+            <div class="titulo text-left">
+              <p>Seja Lembrado</p>
+            </div>
+            <div class="texto text-justify">
+              <p>A primeira impressão é a que fica, então impressione com o seu currículo.<p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 
 </html>
