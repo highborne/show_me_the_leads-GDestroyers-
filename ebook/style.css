@@ -33,7 +33,7 @@ p {
 }
 
 .left {
-    padding: 0 150px 50px 20px;
+    padding: 0 130px 50px 20px;
     flex-grow: 1;
     width: 40%;
 }
@@ -114,6 +114,10 @@ a.thank:hover {
 }
 
 @media (max-height: 750px) {
+    * {
+        font-size: 95%;
+    }
+
     .left {
         padding: 0 150px 10px 20px;
         flex-grow: 1;
@@ -121,9 +125,31 @@ a.thank:hover {
     }
 }
 
+@media (max-height: 600px) {
+    main {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 600px;
+        margin-top: 180px;
+        margin-bottom: 0;
+    }
+
+    .left {
+        align-self: flex-start;
+        padding: 0 50px 80px 20px;
+        width: 40%;
+        margin-bottom: -20px;
+    }
+    
+    .right {
+        
+    }
+}
+
+
 @media (max-width: 1200px) {
     .left {
-        padding: 0 50px 0px 20px;
+        padding: 0 50px 0px 10px;
         width: 40%;
     }
     
