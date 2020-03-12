@@ -14,7 +14,6 @@ main {
     display: flex;
     align-items: flex-end;
     background: url(src/bg.png) no-repeat;
-    background-size: auto;
 }
 
 h1 strong {
@@ -30,11 +29,11 @@ h1 {
 }
 
 p {
-    padding: 5px;
+    padding-bottom: 5px;
 }
 
 .left {
-    padding: 0 150px 10px 20px;
+    padding: 0 150px 50px 20px;
     flex-grow: 1;
     width: 40%;
 }
@@ -45,6 +44,7 @@ p {
     flex-grow: 2;
     padding-right: 20px;
     background: url(src/img.png) no-repeat;
+    background-position: center left;
     background-size: 80%;
     min-height: 72vh;
 }
@@ -87,6 +87,38 @@ button:hover {
 button:active {
     background: #2E1F70;
     opacity: 1;
+}
+
+#thank {
+    margin-bottom: 90px;
+}
+
+.thank {
+    margin-bottom: 30px;
+}
+
+.thank.last {
+    margin-bottom: 10px;
+}
+
+a.thank{
+    padding-bottom: 50px;
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: bold;
+    transition-delay: 0.5ms;
+}
+
+a.thank:hover {
+ color: #2E1F70;
+}
+
+@media (max-height: 750px) {
+    .left {
+        padding: 0 150px 10px 20px;
+        flex-grow: 1;
+        width: 40%;
+    }
 }
 
 @media (max-width: 1200px) {

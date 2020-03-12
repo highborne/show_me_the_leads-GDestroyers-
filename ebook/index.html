@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhar em StartUp?</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NX9KSKG');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX9KSKG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <main>
+        <div class="content left thank">
+            <h1><strong>TRABALHAR</strong> EM STARTUP?</h1>
+            <p>Dicas para ser mais efetivo na sua entrevista ou na formulação do seu currículo</p>
+            <p>Cadastre-se e receba o ebook gratuíto agora!</p>
+            <form method="POST" action="https://smtl.gama.academy/leads/00ed2400-5ffc-11ea-bda1-a79ae41d1f3c">
+                <input id="name" name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="Nome:"  required />
+                <input id="email" name="email" type="email" title="Digite um email válido" placeholder="e-mail:" required />
+                <input name="redirectTo" type="hidden" value="https://startworkup.netlify.com/ebook/thankpage.html" />
+                <input name="debugMode" type="hidden" value="true" />
+                <button id="submit" type="submit">CLIQUE AQUI!</button>
+            </form>
+        </div>
+        <div class="content right">
+        </div>
+    </main>
+    <script>
+        localStorage.clear()
+        document.querySelector('#submit').addEventListener("click", () => {localStorage.setItem("registred", true)})
+    </script>
+</body>
+</html>
