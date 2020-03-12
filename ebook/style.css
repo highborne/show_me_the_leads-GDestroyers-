@@ -141,6 +141,7 @@ a.thank:hover {
     main {
         flex-direction: column-reverse;
         align-items: center;
+        height: 600px;
     }
 
     .left {
