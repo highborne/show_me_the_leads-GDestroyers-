@@ -13,7 +13,7 @@
 
 #### Metodos
 
- - Para a captação desse Leads, fizemos posts orgãnicos nas redes sociais.
+ - Para a captação desse Leads, fizemos posts orgãnicos nas redes sociais como Facebook, Instagram e LinkedIn.
 
 #### Recompensas
 
