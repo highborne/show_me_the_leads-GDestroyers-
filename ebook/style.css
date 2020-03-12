@@ -127,23 +127,22 @@ a.thank:hover {
 
 @media (max-height: 600px) {
     main {
-        flex-direction: column-reverse;
         align-items: center;
-        height: 600px;
-        margin-top: 180px;
+        margin-top: 50px;
+        height: 450px;
         margin-bottom: 0;
     }
 
+    .thank {
+        margin-bottom: 10px;
+    }
+
     .left {
-        align-self: flex-start;
-        padding: 0 50px 80px 20px;
+        align-self: flex-end;
+        padding: 0 180px 10px 20px;
         width: 40%;
-        margin-bottom: -20px;
     }
     
-    .right {
-        
-    }
 }
 
 
